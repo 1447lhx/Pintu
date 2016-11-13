@@ -1,0 +1,21 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".GameActivity" >
+    <item
+        android:id="@+id/continuegame"
+        android:title="继续游戏"
+        app:showAsAction="never"/>
+    <item
+        android:id="@+id/back"
+        android:title="返回退出"
+        app:showAsAction="never"/>
+    <item
+        android:id="@+id/help"
+        android:title="游戏帮助"
+        app:showAsAction="never"/>
+    <item
+        android:id="@+id/setting"
+        android:title="游戏设置"
+        app:showAsAction="never"/>
+</menu>

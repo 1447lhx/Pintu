@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="cn.edu.bistu.cs.se.pintu"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="8"
+        android:targetSdkVersion="18" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/icon"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name="LogoActivity"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="MenuActivity"
+            android:configChanges="keyboardHidden|orientation">
+        </activity>
+        <activity
+            android:name="OptionActivity">
+        </activity>
+
+        <activity
+            android:name="HelpActivity">
+        </activity>
+        <activity
+            android:name="SelectGame">
+        </activity>
+        <activity
+            android:name="GameActivity"
+            android:uiOptions="splitActionBarWhenNarrow">
+        </activity>
+        <activity
+            android:name="InputName">
+        </activity>
+        <activity
+            android:name="RankActivity">
+        </activity>
+    </application>
+
+</manifest>
